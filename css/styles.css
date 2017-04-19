@@ -1,0 +1,218 @@
+
+/*****
+FONTS
+*****/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(249, 249, 247);
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/******
+NAVBAR
+******/
+nav {
+  text-align: center;
+  background: rgba(156, 156, 156, 0.5);
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul {
+  padding: 0;
+  width: 90%;
+  text-align: right;
+  color: black;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 2%;
+  margin: 0 auto;
+  flex-grow: 1;
+  text-transform: uppercase;
+}
+nav img {
+  width: 100px;
+  height: 80px;
+}
+
+/*****
+HEADER
+******/
+.main-header {
+  text-align: center;
+  padding: 12% 0 12% 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.image {
+  background-image: url(../images/nashville2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.main-header h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+/********
+ABOUT ME
+********/
+.about-me {
+  margin: 0;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-me-bio {
+  flex-grow: 1;
+  width: 50%;
+  padding: 2%;
+}
+
+.about-me-bio h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+
+.bio-photo {
+  width: 50%;
+  padding: 2%;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/********
+PORTFOLIO
+*********/
+
+.portfolio-section {
+  margin: 0;
+  padding: 2%;
+  background-color: rgb(226, 226, 226);
+}
+
+.portfolio-section h2 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.project-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.project-wrapper {
+  width: 50%;
+  text-align: center;
+  border: 3px solid black;
+  margin: 1%;
+}
+
+.project-wrapper h3 {
+  padding: 15% 10% 15% 10%;
+}
+
+/****
+BLOG
+*****/
+
+.blog-section {
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(247, 180, 155);
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  padding: 1%;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#blog-article {
+  text-align: left;
+}
+
+/********
+RESOURCES
+*********/
+
+.resources-section {
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+  padding: 5% 0 5% 0;
+}
+
+.resources-section ul {
+    padding: 0;
+}
+
+.resources-section ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+/******
+CONNECT
+*******/
+.connect-section {
+  text-align: center;
+  margin: 0;
+  padding-top: 1%;
+}
+
+.connect-section ul {
+  padding: 1% 1% 2% 1%;
+  margin-bottom: 0;
+}
+.connect-section ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 2%;
+}
+
+/******
+FOOTER
+******/
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 1%;
+}
