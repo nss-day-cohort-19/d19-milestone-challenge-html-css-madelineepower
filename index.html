@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Madeline E Power | Developer In Training</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
@@ -29,8 +32,8 @@
       </div>
       <div class="about-me-bio">
         <h2>About Me</h2>
-        <p>Hi, I'm Madeline! Welcome to my portfolio site - Here is a little bit about me and how I started exploring web and software development.</p>
-        <p>I graduated from Miami University of Ohio in May of 2014 with my Bachelor's in Music Education.  After a few years of teaching and working in child care, it was time for a change.  I started researching career options in tech and design.  I took classes in graphic design and typography.  My research on careers eventually led me to wonder about coding, and if I could ever learn to do it.  I started taking online courses and practicing on my own.  After a couple months - I couldn't get enough! In April 2017, I enrolled in the 6 month full-time software development program at Nashville Software School.  The skills I am learning here and the projects I am working on can be found below or on my Github profile.</p>
+        <p>Hi, I'm Madeline! Welcome to my portfolio site - Here is a little bit about me and how I began exploring web and software development.</p>
+        <p>I graduated from Miami University of Ohio in May of 2014 with my Bachelor's in Music Education.  After a few years of teaching and working in child care, it was time for a change.  I began researching career options in tech and design.  I took classes in graphic design and typography.  My research on careers eventually led me to wonder about coding, and if I could ever learn to do it.  I started taking online courses and practicing on my own.  After a couple months - I couldn't get enough! In April 2017, I enrolled in the 6 month full-time software development program at Nashville Software School.  The skills I am learning here and the projects I am working on can be found below or on my Github profile.</p>
       </div>
     </section>
     <section class="portfolio-section">
@@ -45,8 +48,10 @@
         </div>
     </section>
     <div class="blog-section">
-      <button type="button" id="read-blog">Read the blog</button>
-        <div id="blog-article"></div>
+      <li>
+        <div><button type="button" id="read-blog" class="btn btn-info" data-toggle="collapse" data-target="#blog-article">Read the blog</button></div>
+        <div id="blog-article" class="collapse"></div>
+      </li>
     </div>
     <section class="resources-section">
       <div>
